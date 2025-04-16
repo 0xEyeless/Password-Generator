@@ -21,7 +21,7 @@ pw2="${fav_color}#${fav_animal}${birth_month}"
 pw3="${fav_team:0:3}${hash:0:4}_${birth_month}"
 pw4="$(echo $fav_animal | rev)${birth_month}*${fav_color:0:2}"
 pw5="${first_name^}_${fav_team,,}!${hash:10:4}${secret_word:0:2}"
-
+# I Hope You Are Having Fun :)
 echo ""
 echo "🔑 Here are your 5 password suggestions:"
 echo "1. $pw1"
